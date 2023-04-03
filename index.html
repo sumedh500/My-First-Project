@@ -5,135 +5,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> component library</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-cC+bVuV7Mx1kzGj7gGhP/YFQyZZoOyksCMM1OjCYrHQrZakxk5BNH0Q0hMDtqjKf7Dd+S0Fjf9XW0K79Gg25eA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <title> component library</title>
+    <style>
+        .navbar {
+            background-color: #6f43e9;
+            /* Set the background color */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+            /* Add a shadow */
+            width: 1400px;
+            margin: auto;
+            height: 100px;
+
+        }
+
+        .nav-link {
+            font-weight: 400;
+            /* Set the font weight */
+            color: #eaeff3;
+            /* Set the text color */
+        }
+
+        .nav-link:hover {
+            color: #040e1b;
+            /* Change the text color on hover */
+        }
+
+        .color-me {
+            color: rgb(223, 223, 230);
+            font-weight: 100;
+            font-size:xx-large;
+            height: 50px;
+
+        }
+    </style>
 </head>
 
 <body>
-    <h1>
-        Welcome to sumedh nikalje component library
-    </h1>
-    <p>
-        i am attending neog.camp and i want to make a library
-        which would make all my project look good and consistent
-    </p>
-    <hr>
+    <nav class="navbar navbar-expand-md">
+        <a class="color-me" href="#" data-target="#navbarNav">Sumedh Nikalje</a>
 
-    <h2>@typogyaphy</h2>
-    <h1>This is biggest heading</h1>
-    <h1>This is second heading</h1>
-    <p>
-        let me show you the normal text
-    </p>
-    <small>
-        this is relatively
-    </small>
-
-    <hr>
-    <h1>@container</h1>
-    <h3>fluid container</h3>
-    <div>
-        this is fluid container
-    </div>
-    <h3>
-        centered container
-    </h3>
-    <div>
-        this is center container
-    </div>
-    <hr>
-    <h2>@links</h2>
-    <a href="/">Primary Links</a>
-    <a href="/">Secondary Links</a>
-    <hr>
-    <h2>@list</h2>
-    <h3>unorder list</h3>
-    <ul>
-        <li>item one</li>
-        <li>item tow</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>unorder inline list</h3>
-    <ul>
-        <li>item one</li>
-        <li>item tow</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>reverse order list</h3>
-    <ol>
-        <li>Milk</li>
-        <li>Egg</li>
-        <li>break</li>
-    </ol>
-
-    <hr>
-    <nav>
-        <div>
-            <ul>
-                <li>
-                    <a href="/">home</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
                 </li>
-
-                <li>
-                    <a href="/">product</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Project</a>
                 </li>
-
-                <li>
-                    <a href="/">about</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <hr>
-
-    <h2>@header</h2>
 
     <header>
-        <img src="./Image/Header.svg">
-        <h1>heading inside</h1>
+        <img src="./Image/Header.svg" class="rounded mx-auto d-block"
+            style="height: 400px; padding: auto;margin-top:100 ;">
+        <h1 class="rounded mx-auto d-block" style="height: 800;text-align: center">Sumedh Nikalje The <span
+                style="color: rgb(109, 84, 212)">Full Stack Devloper</span></h1>
     </header>
-
     <hr>
+    <td></td>
+    <section class="text-center">
 
-    <h2>
-        @section
-    </h2>
-    <section>
-        <h3>@fluid section</h3>
-        <p>this will go ene to end with margin</p>
-    </section>
+        <div class="card" style="background-color: #eee;width: 1400px;margin: auto;height: 200px;margin-bottom: 100px;">
+            <div class="card-body" style="height: 400px">
+                <h1>Technologies
+                </h1>
+                <p>
+                    I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS Web Hosting
+                    Angular,Express And MongoDB
 
-    <section>
-        <h3>
-            off white section
-        </h3>
-        <p>this will have gray BG</p>
-    </section>
-    <hr>
+                </p>
 
-    <h2>
-        @Footer
-    </h2>
-    <footer>
-        <div>
-            some small heading inside footer
+            </div>
         </div>
-        <ul>
-            <li>
-                social One
-            </li>
 
-            <li>
-                social two
-            </li>
+        <div class="card" style="width: 1400px;margin: auto;height: 200px;margin-bottom: 100px;">
+            <div class="card-body" style="height: 200px">
+                <h1>projects
+                </h1>
+                <p>
+                    I like to showcase my work and thus, you can see my projects hosted online
+                    <br>
+                    <button  class="btn " style="background-color: #6f43e9; color: #eaeff3;" type="submit">Button</button>
 
-            <li>
-                social three
-            </li>
-        </ul>
-    </footer>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="card" style="background-color: #eee;width: 1400px;margin: auto;height: 200px;margin-bottom: 100px;">
+            <div class="card-body" style="height: 200px">
+                <h1>Blogs
+                </h1>
+                <p>
+                    I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+                    <br>
+                    <button  class="btn btn-primary " style="background-color: #ffffff; color: #6f43e9;" type="submit">Button</button>
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="navbar navbar-expand-md"style="background-color: #6f43e9; height: 150px;">
+        <div class="container">
+          <!-- <div class="row"> -->
+            <div >
+              <p>
+                <span
+                style="color: rgb(255, 255, 255)">social media presence</span>
+            </p>
+            </div>
+            <div class="navbar navbar-expand-md">
+              <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i>faceBook</a>
+              <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i>Instagram</a>
+              <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i>Twitter</a>
+              <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i>Linkedin</a>
+            <!-- </div> -->
+          </div>
+        </div>
+      </footer>
+      
 </body>
 
 </html>
